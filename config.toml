@@ -1,3 +1,81 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://drewsortega.github.io"
+title = "DREW S. ORTEGA (ORVYX)"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Drew S. Ortega"
+  info = "4th Year Computer Science Student @ Oregon State University, Incoming Software Engineer @ Google"
+  description = "Drew Ortega's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/drew.jpeg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = ""
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/DrewSOrtega/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/DrewSOrtega"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/DrewSOrtega/"
+[[params.social]]
+  name = "Instagram"
+  icon = "fa fa-instagram fa-2x"
+  weight = 3
+  url = "https://instagram.com/DrewSOrtega/"
+
+# Menu links
+[[menu.main]]
+  name = "Portfolio"
+  weight = 1
+  url  = "portfolio/"
+[[menu.main]]
+  name = "Resume"
+  weight = 1
+  url = "files/Drew_Ortega_Resume.pdf"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
